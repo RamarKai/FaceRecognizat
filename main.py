@@ -82,7 +82,7 @@ def save_feature_sd(Addr):
     feature_file = open(Addr, "wb")         # 在SD卡上创建一个文件用于保存特征向量
     feature_file.write(bytearray(feature))  # 将特征向量转换为bytes并写入文件
     feature_file.close()
-                                                                 #by_zyb_2023_07_14
+                                                                 #2023_07_14
 ###################################################################################
 
 read_feature("/sd/featureQKX.bin")#Addr1
